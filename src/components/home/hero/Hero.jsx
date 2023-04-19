@@ -1,6 +1,7 @@
 import React from "react";
 import Heading from "../../common/heading/Heading";
 import "./Hero.css";
+import HomeFooter from "../../common/homeFooter/HomeFooter";
 
 const Hero = () => {
   return (
@@ -20,12 +21,13 @@ const Hero = () => {
               <button className="primary-btn">
                 GET STARTED NOW <i className="fa fa-long-arrow-alt-right"></i>
               </button>
-              <button>
+              {/* <button>
                 VIEW COURSE <i className="fa fa-long-arrow-alt-right"></i>
-              </button>
+              </button> */}
             </div>
           </div>
         </div>
+        <HomeFooter></HomeFooter>
       </section>
       <div className="margin"></div>
     </>
